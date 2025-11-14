@@ -1,0 +1,20 @@
+# Nombre: [Tu Nombre y Apellido]
+# Fecha: [Fecha de entrega]
+# Descripción: Parte 3 - Desafío: Promedio de calificaciones
+
+# --- Captura de tres calificaciones ---
+cal1 = float(input("Ingresa la primera calificación: "))
+cal2 = float(input("Ingresa la segunda calificación: "))
+cal3 = float(input("Ingresa la tercera calificación: "))
+
+# --- Cálculo del promedio ---
+promedio = (cal1 + cal2 + cal3) / 3
+
+# --- Mostrar el promedio ---
+print(f"\nTu promedio es: {promedio:.2f}")
+
+# --- Evaluar si aprobó o no ---
+if promedio >= 70:
+    print("¡Felicidades! Aprobaste 🎉")
+else:
+    print("Lo siento, necesitas estudiar más 📘")
