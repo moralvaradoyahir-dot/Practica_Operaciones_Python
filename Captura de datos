@@ -1,0 +1,26 @@
+# Nombre: [Tu Nombre y Apellido]
+# Fecha: [Fecha de entrega]
+# Descripción: Parte 1 - Captura de datos del usuario y conversión de tipos
+
+# --- Captura de datos ---
+nombre = input("Ingresa tu nombre completo: ")
+edad = int(input("Ingresa tu edad (número entero): "))
+estatura = float(input("Ingresa tu estatura (en metros): "))
+le_gusta_programar = input("¿Te gusta programar? (True/False): ")
+
+# Convertimos la respuesta de gusto por programar a tipo bool
+le_gusta_programar = le_gusta_programar.lower() == "true"
+
+# --- Mostrar datos capturados ---
+print("\n--- Datos capturados ---")
+print(f"Nombre: {nombre}")
+print(f"Edad: {edad}")
+print(f"Estatura: {estatura}")
+print(f"¿Le gusta programar?: {le_gusta_programar}")
+
+# --- Mostrar tipos de datos ---
+print("\n--- Tipos de datos ---")
+print(f"Tipo de 'nombre': {type(nombre)}")
+print(f"Tipo de 'edad': {type(edad)}")
+print(f"Tipo de 'estatura': {type(estatura)}")
+print(f"Tipo de 'le_gusta_programar': {type(le_gusta_programar)}")
